@@ -6,7 +6,7 @@ function juegos() {
     }
 }
 function juego1() {
-    juegos();
+  
     console.log("alerta juego1");
     var lucha = document.querySelectorAll(".c1");
     for (let i = 0; i < lucha.length; i++) {
