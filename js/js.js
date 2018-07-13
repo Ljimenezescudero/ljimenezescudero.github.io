@@ -18,7 +18,7 @@ function juego2() {
     var deporte = document.querySelectorAll(".c2");
     for (let i = 0; i < deporte.length; i++) {
         deporte[i].style.opacity = "1";
-        juegos();
+       
     }
 }
 function juego3() {
@@ -29,7 +29,7 @@ function juego3() {
     }
 }
 function reiniciar() {
-    juegos();
+
     console.log("reiniciando");
     var reiniciando = document.querySelectorAll("reiniciar");
     for (let i = 0; i < reiniciando.length; i++) {
