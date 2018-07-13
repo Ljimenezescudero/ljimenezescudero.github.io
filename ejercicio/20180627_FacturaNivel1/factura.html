@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Ejemplo</title>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<script src="js/facturador.js"></script>
+</head>
+<body>
+<form action="">
+	<input type="text" id="nombreCliente" placeholder="Nombre de cliente">
+	<br>
+	<input type="text" id="nombreProducto" placeholder="Nombre de producto">
+	<br>
+	<input type="number" id="numeroProductos" placeholder="Número de productos">
+	<br>
+	<input type="number" id="precioUnitario" placeholder="Precio unitario">
+	<br>
+	<input type="radio" name="rIva" id="basico">4%
+	<br>
+	<input type="radio" name="rIva" id="normal" checked>10%
+	<br>
+	<input type="radio" name="rIva" id="alto">21%
+	<br>
+	<input type="button" value="Calcular" onclick="calcular()">
+	<br>
+</form>	
+</body>
+</html>
